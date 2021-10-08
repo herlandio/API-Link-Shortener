@@ -51,7 +51,7 @@ class LinkShortener extends Controller
             $LS->save();
             return Redirect::to($this->verify($id, 'user_link'));
         } else {
-            return Redirect::to('/');
+            return Response()->json(['message' => 'not found', 'status' => false, 'code' => 404], 404);
         }
     }
 
