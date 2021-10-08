@@ -43,8 +43,8 @@
     - POST <br>
     `/api/link/create` <br>
         - Fields: <br>
-            link :: url <br>
-            identification :: identification for url <br>
+            - link :: url <br>
+            - identification :: identification for url (optional)<br>
         
 
 
