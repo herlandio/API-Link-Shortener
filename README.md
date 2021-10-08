@@ -7,8 +7,11 @@
 > Laravel: <br>
 
 `composer install` <br>
-Linux: `cp .env.example .env` <br>
-Windows: `copy .env.example .env` <br>
+   - Linux: <br>
+   `cp .env.example .env` <br>
+   - Windows: <br>
+   `copy .env.example .env` <br>
+   
 `php artisan key:generate` <br>
 
 
