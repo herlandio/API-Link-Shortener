@@ -2,7 +2,7 @@
 
 > Clone the project: <br>
 
-`git clone https://github.com/herlandio/APILinkShortener`
+`git clone https://github.com/herlandio/API-Link-Shortener`
 
 > Laravel: <br>
 
