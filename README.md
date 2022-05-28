@@ -10,7 +10,7 @@
 docker-compose up -d
 ```
 
-> Depois digite `docker ps` copie o CONTAINER_ID e substitua no comando abaixo:
+> Depois digite `docker ps` e copie o CONTAINER_ID do app e substitua no comando abaixo:
 
 ```
 docker exec -it CONTAINER_ID bash
