@@ -7,7 +7,7 @@
 > Execute: <br>
 
 ```
-docker-compose up -d:
+docker-compose up -d
 ```
 
 > Depois digite `docker ps` copie o CONTAINER_ID e substitua no comando abaixo:
