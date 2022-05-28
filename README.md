@@ -1,28 +1,28 @@
 # API Link Shortener
 
-> Clone the project: <br>
+> Clone o projeto: <br>
 
 `git clone https://github.com/herlandio/API-Link-Shortener`
 
-> Laravel: <br>
+> Execute: <br>
 
-`composer install` <br>
-   - Linux: <br>
-   `cp .env.example .env` <br>
-   - Windows: <br>
-   `copy .env.example .env` <br>
-   
-`php artisan key:generate` <br>
+`
+docker-compose up -d:
+`
 
+> Depois digite `docker ps` copie o CONTAINER_ID e substitua no comando abaixo:
 
-> Mysql: <br>
+`
+docker exec -it CONTAINER_ID bash
+`
 
-`Create database linkshortener` <br>
+> Por fim execute o comando abaixo:
 
-> Laravel: <br>
+`
+php artisan migrate
+`
 
-`php artisan migrate` <br>
-`php artisan serve` <br>
+> Para sair digite `exit`
 
 > Routes: <br>
 
